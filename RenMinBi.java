@@ -21,6 +21,9 @@ public class RenMinBi {
     }
 
     private static String convert(int money) {
+
+        System.out.println("........");
+
         StringBuffer sbuff = new StringBuffer();
         int num = 0;
         while (money != 0) {
