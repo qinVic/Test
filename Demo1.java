@@ -32,6 +32,7 @@ class Test {
     }
 
     private static synchronized Test getTest() {
+        System.out.println("............................");
         if (test == null) {
             test = new Test();
         }
